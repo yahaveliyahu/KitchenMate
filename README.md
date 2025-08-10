@@ -51,9 +51,70 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 - **Development language**: Kotlin
 - **Database**: Firebase Firestore
 - **Image storage**: Firebase Storage
-- **External APIs**: Spoonacular, OpenFoodFacts
+- **External APIs**: Spoonacular
 - **Machine Learning**: MobileNet v2 + TensorFlow Lite
 - **OCR**: ML Kit / Tesseract OCR
 - **UI**: Android XML Layouts, Glide for loading images
-
+- **Utils:** Coroutines, Serializable models
   
+---
+
+## 📂 Project Structure
+
+  app/
+├── src/
+│ └── main/
+│ ├── AndroidManifest.xml
+│ ├── assets/
+│ │ └── labels.txt # ML labels for produce detection
+│ ├── java/dev/yahaveliyahu/kitchenmate/
+│ │ ├── AddRecipeActivity.kt
+│ │ ├── AdminApprovalActivity.kt
+│ │ ├── ImageMigrationActivity.kt
+│ │ ├── MainActivity.kt
+│ │ ├── RecipeAdapter.kt
+│ │ ├── model/
+│ │ │ ├── Recipe.kt
+│ │ │ └── RecipeMatch.kt
+│ │ ├── service/
+│ │ │ ├── RecipeMatcher.kt
+│ │ │ ├── RecipeService.kt
+│ │ │ └── SpoonacularService.kt
+│ │ ├── ui/
+│ │ │ ├── add/
+│ │ │ │ ├── AddRecipeWayChoosingActivity.kt
+│ │ │ │ ├── ImportRecipeActivity.kt
+│ │ │ │ └── OCRScanRecipeActivity.kt
+│ │ │ ├── auth/
+│ │ │ │ ├── LoginActivity.kt
+│ │ │ │ └── RegisterActivity.kt
+│ │ │ ├── ingredients/
+│ │ │ │ ├── GallerySelectActivity.kt
+│ │ │ │ ├── WayChoosingIngredientsActivity.kt
+│ │ │ │ └── (Camera/Barcode launcher activities)
+│ │ │ └── recipes/
+│ │ │ ├── AllRecipesActivity.kt
+│ │ │ ├── FavoriteRecipesActivity.kt
+│ │ │ ├── MatchedRecipesActivity.kt
+│ │ │ ├── RecentRecipesActivity.kt
+│ │ │ └── RecipeDetailsActivity.kt
+│ │ └── utils/
+│ │ └── TextStylingUtils.kt
+│ └── res/ # drawables, layouts, values, etc.
+├── build.gradle.kts
+├── settings.gradle.kts
+└── gradle.properties
+
+## 🖼️ Screenshots
+
+**Login**
+
+**Home**
+
+**Match Results**
+
+**Recipe Details**
+
+**Favorites**
+
+**Recents**
