@@ -19,6 +19,12 @@ The app allows for intelligent search, scanning, saving, and management of recip
 
   ---
 
+## 🎮 Watch the App in Action
+
+▶️ [Click here to watch the video](https://streamable.com/493zsk)
+
+---
+
 ## 🛠 Technologies used
 
 - **Development language**: Kotlin
