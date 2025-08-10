@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_24">
+
+<!-- title -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_recipe"
+        android:textSize="@dimen/text_size_30"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_bottom_16" />
+
+    <!-- category -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/min_height_48"
+        android:minLines="1"
+        android:hint="@string/category"
+        android:textColor="@color/black"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="@dimen/margin_bottom_16" />
+
+    <!-- Recipe name -->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextRecipeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/min_height_48"
+        android:minLines="1"
+        android:hint="@string/recipe_title_add_recipe"
+        android:textColor="@color/black"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="@dimen/margin_bottom_16" />
+
+    <!-- ingredients -->
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredients_add_recipe"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_height_100"
+            android:minLines="4"
+            android:hint="@string/ingredients_one_per_line"
+            android:textColor="@color/black"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="@dimen/margin_bottom_16" />
+
+        <!--  essential ingredients -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgEssentialTooltip"
+                android:layout_width="@dimen/width_24"
+                android:layout_height="@dimen/height_24"
+                android:src="@drawable/question_mark_24px"
+                android:contentDescription="@string/essential_ingredients_tooltip"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/textEssentialIngredientsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/essential_ingredients"
+                android:layout_marginStart="@dimen/margin_start_8"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextEssentialIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/essential_ingredients_one_per_line"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top|start" />
+
+        <!-- instructions -->
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions_add_recipe"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/editTextInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_height_100"
+            android:minLines="4"
+            android:hint="@string/preparation_instructions"
+            android:textColor="@color/black"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="@dimen/margin_bottom_16" />
+
+    <!-- Image selection buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/margin_bottom_16">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSelectImage"
+            android:layout_width="@dimen/width_0"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_height_48"
+            android:layout_weight="1"
+            android:text="@string/select_from_gallery"
+            android:backgroundTint="@color/amber_800"
+            android:textColor="@android:color/black"
+            android:layout_marginEnd="@dimen/margin_end_8"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonTakePhoto"
+            android:layout_width="@dimen/width_0"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/min_height_48"
+            android:layout_weight="1"
+            android:text="@string/take_photo"
+            android:backgroundTint="@color/amber_800"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="@dimen/margin_start_8"/>
+    </LinearLayout>
+
+    <!-- Image display -->
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewRecipe"
+        android:layout_width="@dimen/width_200"
+        android:layout_height="@dimen/height_200"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/recipe_image"
+        android:src="@drawable/placeholder_image"
+        android:layout_marginBottom="@dimen/margin_bottom_16" />
+
+    <!-- Send button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSubmitRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/min_height_48"
+        android:text="@string/submit_recipe"
+        android:backgroundTint="@color/amber_800"
+        android:textColor="@android:color/black"
+        app:cornerRadius="@dimen/corner_radius_16" />
+
+    </LinearLayout>
+</ScrollView>

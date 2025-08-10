@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Search bar with clear button -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_8">
+
+            <AutoCompleteTextView
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/search_recipes"
+                android:padding="@dimen/padding_12"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:background="@color/orange_100"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_16"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/clear_button" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/clear_button"
+                android:layout_width="@dimen/width_24"
+                android:layout_height="@dimen/height_24"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:padding="@dimen/padding_8"
+                android:background="@android:color/transparent"
+                app:tint="@android:color/black"
+                android:contentDescription="@string/clear_search" />
+        </RelativeLayout>
+
+       <!-- Scroll to all categories and recipes -->
+    <ScrollView
+        android:id="@+id/all_recipes_SCROLL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/all_recipes_RECYCLER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_12"
+            android:divider="?android:attr/dividerHorizontal"
+            android:showDividers="middle" />
+    </ScrollView>
+    </LinearLayout>
+
+    <!-- Loading spinner that appears in the center when retrieving recipes -->
+    <ProgressBar
+        android:id="@+id/all_recipes_PROGRESS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/no_recipes_TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/no_recipes_found_matching_the_suggested_filter"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_25"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_24"
+    android:background="@drawable/background_app">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/recipe_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_recipe_found"
+        android:textSize="@dimen/text_size_30"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="@dimen/padding_24" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_back_to_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_more_ingredients_no_recipe"
+        android:backgroundTint="@color/amber_800"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/margin_top_16"/>
+</LinearLayout>

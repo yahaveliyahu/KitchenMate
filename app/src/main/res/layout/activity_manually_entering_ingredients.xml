@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_24"
+    android:background="@drawable/background_app">
+
+    <!-- Title -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_ingredients_do_you_have_at_home_right_now"
+        android:textSize="@dimen/text_size_30"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Drop Down List -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteIngredient"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_ingredient"
+        android:inputType="text"
+        android:drawableEnd="@android:drawable/arrow_down_float"
+        android:padding="@dimen/padding_12"
+        android:background="@drawable/ingredient_item_background"
+        app:layout_constraintTop_toBottomOf="@id/Title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top_16"/>
+
+    <!-- Add Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddIngredient"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:backgroundTint="@color/amber_800"
+        android:textColor="@android:color/black"
+        app:cornerRadius="@dimen/corner_radius_16"
+        app:layout_constraintTop_toBottomOf="@id/autoCompleteIngredient"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top_12"/>
+
+    <!-- Find Recipes Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnFindRecipes"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:text="@string/find_recipes"
+        android:backgroundTint="@color/amber_800"
+        android:textColor="@android:color/black"
+        app:cornerRadius="@dimen/corner_radius_16"
+        app:layout_constraintTop_toBottomOf="@id/btnAddIngredient"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top_12"/>
+
+    <!-- Scan Ingredient Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnScanIngredient"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:text="@string/can_t_find_your_ingredient_scan_it"
+        android:backgroundTint="@color/amber_800"
+        android:textColor="@android:color/black"
+        app:cornerRadius="@dimen/corner_radius_16"
+        app:layout_constraintTop_toBottomOf="@id/btnFindRecipes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top_12" />
+
+    <!-- List of selected ingredients -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/SelectedIngredients"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:text="@string/selected_ingredients"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size_20"
+        android:layout_marginTop="@dimen/margin_top_24"
+        app:layout_constraintTop_toBottomOf="@id/btnScanIngredient"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <!-- Scrollable Ingredient List -->
+    <ScrollView
+        android:layout_width="@dimen/width_0"
+        android:layout_height="@dimen/height_0"
+        android:layout_marginTop="@dimen/margin_top_8"
+        android:fillViewport="true"
+        android:overScrollMode="ifContentScrolls"
+        app:layout_constraintTop_toBottomOf="@id/SelectedIngredients"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/selectedIngredientsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

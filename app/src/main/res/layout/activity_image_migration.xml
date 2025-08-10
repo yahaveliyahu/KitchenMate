@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_24"
+    android:background="@drawable/background_app"
+    android:gravity="center_horizontal">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/image_migration_tool"
+        android:textSize="@dimen/text_size_25"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="32dp"
+        android:gravity="center" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initializing"
+        android:textSize="@dimen/text_size_16"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/margin_bottom_24"
+        android:padding="@dimen/padding_16"
+        android:background="@drawable/rounded_background"
+        android:gravity="center" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom_24"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:indeterminate="true" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/text_size_14"
+        android:textColor="@color/black"
+        android:layout_marginBottom="32dp"
+        android:padding="@dimen/padding_12"
+        android:background="@drawable/rounded_background"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start_migration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_image_migration"
+        android:textSize="@dimen/text_size_18"
+        android:textStyle="bold"
+        android:padding="@dimen/padding_16"
+        android:layout_marginBottom="@dimen/margin_bottom_24"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_24"
+    android:background="@drawable/background_app">
+
+    <!-- title -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_would_you_like_to_enter_your_ingredients"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_40"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/margin_top_32"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- card: Enter Ingredients -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardEnterIngredients"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="@dimen/height_120"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/corner_radius_16"
+        app:cardElevation="@dimen/card_elevation_6"
+        android:layout_marginTop="@dimen/margin_top_32"
+        app:layout_constraintTop_toBottomOf="@id/textTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_16"
+            android:background= "@drawable/ingredient_item_background">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/width_90"
+                android:layout_height="@dimen/height_90"
+                android:src="@drawable/pencil" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom_8"
+                android:text="@string/manually_entering_ingredients"
+                android:textSize="@dimen/text_size_25"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- card: Scan Ingredients -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardScanIngredients"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="@dimen/height_120"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/corner_radius_16"
+        app:cardElevation="@dimen/card_elevation_6"
+        android:layout_marginTop="@dimen/margin_top_16"
+        app:layout_constraintTop_toBottomOf="@id/cardEnterIngredients"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_16"
+            android:background= "@drawable/background_app">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/width_90"
+                android:layout_height="@dimen/height_90"
+                android:src="@drawable/camera" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scan_ingredients"
+                android:textSize="@dimen/text_size_25"
+                android:layout_marginStart="@dimen/margin_start_16"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

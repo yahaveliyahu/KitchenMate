@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+    tools:context=".ui.recipes.FavoriteRecipesActivity">
+
+<!-- title -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/favorite_recipes_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_favorite_recipes"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_30"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top_24" />
+
+    <!-- Line below the title -->
+    <View
+        android:id="@+id/favorites_LINE_underline"
+        android:layout_width="@dimen/width_300"
+        android:layout_height="@dimen/height_1"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@id/favorite_recipes_LBL_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top_4"
+        android:layout_marginBottom="@dimen/margin_bottom_16" />
+
+    <!-- Notification when there are no favorite recipes -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/favorite_recipes_LBL_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_favorite_recipes_yet"
+        android:textColor="@color/red_600"
+        android:textSize="@dimen/text_size_25"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/favorite_recipes_LBL_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Scroll to recipes -->
+    <ScrollView
+        android:id="@+id/favorite_recipes_SCROLL"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="@dimen/height_0"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/favorites_LINE_underline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    <!-- Recipe list -->
+    <LinearLayout
+        android:id="@+id/recyclerViewFavorites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_8"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle" />
+    </ScrollView>
+
+    <!-- Loading spinner that appears in the center when retrieving recipes -->
+    <ProgressBar
+        android:id="@+id/favorite_recipes_PROGRESS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/favorite_recipes_LBL_empty"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/margin_top_16" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.recipes.MatchedRecipesActivity"
+    android:background="@drawable/background_app">
+
+    <!-- Defines the entire screen where
+        the cards are displayed (within RecyclerView) -->
+
+    <!-- Message if there is no perfect recipe -->
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_no_perfect_match"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="wrap_content"
+        android:text="@string/there_is_no_recipe_that_you_can_make_with_just_what_you_have_at_home"
+        android:textAlignment="center"
+        android:padding="@dimen/padding_16"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_size_20"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <!-- Recipe list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_matched_recipes"
+        android:layout_width="@dimen/width_0"
+        android:layout_height="@dimen/height_0"
+        app:layout_constraintTop_toBottomOf="@id/txt_no_perfect_match"
+        app:layout_constraintBottom_toTopOf="@id/button_add_more"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/padding_8"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_add_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_more_ingredients"
+        app:layout_constraintTop_toBottomOf="@id/recycler_matched_recipes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="@color/amber_800"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="@dimen/margin_top_16"
+        android:layout_marginBottom="@dimen/margin_bottom_24"/>
+
+    <!-- Loading spinner that appears in the center when retrieving recipes -->
+    <ProgressBar
+        android:id="@+id/matched_recipes_PROGRESS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

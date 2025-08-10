@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16"
+        android:layoutDirection="ltr"
+        android:gravity="start"
+        android:textAlignment="viewStart">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/recipe_details_IMG_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_200"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recipe_details_LBL_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_title_details"
+            android:textSize="@dimen/text_size_25"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_top_16"
+            android:gravity="start"
+            android:textAlignment="viewStart" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recipe_details_LBL_ingredients_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ingredients_details"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginTop="@dimen/margin_top_16"
+            android:gravity="start"
+            android:textAlignment="viewStart" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/recipe_details_IMG_tooltip"
+            android:layout_width="@dimen/width_24"
+            android:layout_height="@dimen/height_24"
+            android:src="@drawable/ic_tooltip"
+            android:contentDescription="@string/tooltip_details"
+            android:layout_marginStart="@dimen/margin_start_8"
+            android:layout_marginTop="@dimen/margin_top_16"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recipe_details_LBL_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_8"
+            android:textSize="@dimen/text_size_16"
+            android:gravity="start"
+            android:textAlignment="viewStart" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recipe_details_LBL_instructions_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_details"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_18"
+            android:layout_marginTop="@dimen/margin_top_16"
+            android:gravity="start"
+            android:textAlignment="viewStart" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/recipe_details_LBL_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_8"
+            android:textSize="@dimen/text_size_16"
+            android:gravity="start"
+            android:textAlignment="viewStart" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/recipe_details_BTN_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_this_recipe"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/red_600"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/margin_16"/>
+
+    </LinearLayout>
+</ScrollView>

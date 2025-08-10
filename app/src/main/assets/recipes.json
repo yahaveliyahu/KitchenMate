@@ -1,0 +1,495 @@
+{
+  "recipes": [
+    {
+      "title": "Scrambled Eggs",
+      "ingredients": [
+        "3 eggs",
+        "2 tablespoons milk",
+        "1 tablespoon butter",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Beat eggs with milk, salt, and pepper. Heat butter in a non-stick pan over medium-low heat. Pour in eggs and gently stir continuously until set but still creamy. Serve immediately."
+    },
+    {
+      "title": "Pancakes",
+      "ingredients": [
+        "1 cup all-purpose flour",
+        "1 tablespoon sugar",
+        "2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "1 egg",
+        "1 cup milk",
+        "2 tablespoons melted butter"
+      ],
+      "instructions": "Mix dry ingredients in a bowl. In another bowl, whisk egg, milk, and melted butter. Combine wet and dry ingredients until just mixed. Cook on a greased griddle over medium heat until bubbles form and edges look set. Flip and cook until golden brown."
+    },
+    {
+      "title": "Grilled Cheese Sandwich",
+      "ingredients": [
+        "2 slices bread",
+        "2 slices cheese (cheddar or American)",
+        "2 tablespoons butter"
+      ],
+      "instructions": "Butter one side of each bread slice. Place cheese between bread slices with buttered sides facing out. Cook in a skillet over medium heat until golden brown on both sides and cheese is melted."
+    },
+    {
+      "title": "Spaghetti with Garlic and Oil",
+      "ingredients": [
+        "1/2 pound spaghetti",
+        "1/4 cup olive oil",
+        "4 cloves garlic, thinly sliced",
+        "1/4 teaspoon red pepper flakes",
+        "Salt to taste",
+        "Fresh parsley, chopped"
+      ],
+      "instructions": "Cook spaghetti according to package directions. Meanwhile, heat olive oil in a large skillet and sauté garlic until golden. Add red pepper flakes. Drain pasta and toss with garlic oil. Season with salt and garnish with parsley."
+    },
+    {
+      "title": "French Toast",
+      "ingredients": [
+        "4 slices bread",
+        "2 eggs",
+        "1/4 cup milk",
+        "1/2 teaspoon vanilla extract",
+        "1/4 teaspoon cinnamon",
+        "2 tablespoons butter"
+      ],
+      "instructions": "Whisk together eggs, milk, vanilla, and cinnamon. Dip bread slices in mixture, coating both sides. Cook in buttered skillet over medium heat until golden brown on both sides. Serve with syrup or powdered sugar."
+    },
+    {
+      "title": "Chicken Noodle Soup",
+      "ingredients": [
+        "4 cups chicken broth",
+        "1 cup cooked chicken, shredded",
+        "1 cup egg noodles",
+        "1 carrot, diced",
+        "1 celery stalk, diced",
+        "1/2 onion, diced",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Bring broth to a boil. Add vegetables and cook for 5 minutes. Add noodles and cook according to package directions. Stir in chicken and season with salt and pepper. Simmer for 2-3 minutes until heated through."
+    },
+    {
+      "title": "Quesadillas",
+      "ingredients": [
+        "2 flour tortillas",
+        "1 cup shredded cheese",
+        "1/4 cup cooked chicken or beef (optional)",
+        "2 tablespoons oil"
+      ],
+      "instructions": "Place cheese and meat (if using) on one tortilla. Top with second tortilla. Heat oil in a skillet over medium heat. Cook quesadilla for 2-3 minutes per side until golden and cheese is melted. Cut into wedges."
+    },
+    {
+      "title": "Baked Potato",
+      "ingredients": [
+        "4 medium potatoes",
+        "2 tablespoons olive oil",
+        "Salt to taste",
+        "Butter, sour cream, and chives for serving"
+      ],
+      "instructions": "Preheat oven to 425°F. Scrub potatoes and poke holes with a fork. Rub with oil and salt. Bake for 45-60 minutes until tender. Cut open and fluff with a fork. Serve with desired toppings."
+    },
+    {
+      "title": "Tuna Salad",
+      "ingredients": [
+        "2 cans tuna in water, drained",
+        "1/4 cup mayonnaise",
+        "1 celery stalk, diced",
+        "1/4 onion, diced",
+        "1 hard-boiled egg, chopped",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Combine all ingredients in a bowl and mix well. Adjust seasoning to taste. Serve on bread, crackers, or over lettuce."
+    },
+    {
+      "title": "Banana Bread",
+      "ingredients": [
+        "3 ripe bananas, mashed",
+        "1/3 cup melted butter",
+        "3/4 cup sugar",
+        "1 egg, beaten",
+        "1 teaspoon vanilla extract",
+        "1 teaspoon baking soda",
+        "Pinch of salt",
+        "1 1/2 cups all-purpose flour"
+      ],
+      "instructions": "Preheat oven to 350°F. Mix melted butter with mashed bananas. Stir in sugar, egg, and vanilla. Add baking soda and salt. Mix in flour until just combined. Pour into greased loaf pan and bake for 60-65 minutes until a toothpick comes out clean."
+    },
+    {
+      "title": "Fried Rice",
+      "ingredients": [
+        "2 cups cooked rice, cooled",
+        "2 eggs, beaten",
+        "2 tablespoons oil",
+        "1/2 cup frozen peas and carrots",
+        "2 green onions, chopped",
+        "2 tablespoons soy sauce",
+        "1 teaspoon sesame oil"
+      ],
+      "instructions": "Heat 1 tablespoon oil in a large skillet. Scramble eggs and remove from pan. Heat remaining oil, add rice and vegetables. Stir-fry for 3-4 minutes. Add eggs back to pan with soy sauce and sesame oil. Garnish with green onions."
+    },
+    {
+      "title": "Meatloaf",
+      "ingredients": [
+        "1 pound ground beef",
+        "1/2 cup breadcrumbs",
+        "1/4 cup milk",
+        "1 egg",
+        "1/4 cup onion, diced",
+        "1 teaspoon salt",
+        "1/2 teaspoon pepper",
+        "1/4 cup ketchup"
+      ],
+      "instructions": "Preheat oven to 350°F. Mix all ingredients except ketchup. Shape into a loaf and place in a baking dish. Spread ketchup on top. Bake for 45-55 minutes until internal temperature reaches 160°F."
+    },
+    {
+      "title": "Caesar Salad",
+      "ingredients": [
+        "1 head romaine lettuce, chopped",
+        "1/4 cup parmesan cheese, grated",
+        "1/4 cup mayonnaise",
+        "1 tablespoon lemon juice",
+        "1 clove garlic, minced",
+        "1/2 teaspoon Worcestershire sauce",
+        "1/4 teaspoon black pepper",
+        "Croutons"
+      ],
+      "instructions": "Whisk together mayonnaise, lemon juice, garlic, Worcestershire sauce, and pepper for dressing. Toss lettuce with dressing. Top with parmesan cheese and croutons."
+    },
+    {
+      "title": "Beef Tacos",
+      "ingredients": [
+        "1 pound ground beef",
+        "1 packet taco seasoning",
+        "8 taco shells",
+        "1 cup shredded lettuce",
+        "1 cup shredded cheese",
+        "1 tomato, diced",
+        "Sour cream and salsa for serving"
+      ],
+      "instructions": "Brown ground beef in a skillet. Add taco seasoning and water according to package directions. Simmer until thickened. Warm taco shells and fill with meat mixture. Top with lettuce, cheese, tomato, and desired condiments."
+    },
+    {
+      "title": "Chicken Parmesan",
+      "ingredients": [
+        "4 chicken breasts, pounded thin",
+        "1 cup breadcrumbs",
+        "1/2 cup parmesan cheese, grated",
+        "2 eggs, beaten",
+        "1 cup marinara sauce",
+        "1 cup mozzarella cheese, shredded",
+        "2 tablespoons olive oil"
+      ],
+      "instructions": "Preheat oven to 400°F. Mix breadcrumbs and parmesan. Dip chicken in eggs, then breadcrumb mixture. Heat oil in a skillet and brown chicken on both sides. Transfer to baking dish, top with marinara and mozzarella. Bake 20-25 minutes until chicken is cooked through."
+    },
+    {
+      "title": "Chocolate Chip Cookies",
+      "ingredients": [
+        "2 1/4 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1 teaspoon salt",
+        "1 cup butter, softened",
+        "3/4 cup granulated sugar",
+        "3/4 cup brown sugar",
+        "2 eggs",
+        "2 teaspoons vanilla extract",
+        "2 cups chocolate chips"
+      ],
+      "instructions": "Preheat oven to 375°F. Mix flour, baking soda, and salt. In another bowl, cream butter and sugars. Beat in eggs and vanilla. Gradually mix in flour mixture. Stir in chocolate chips. Drop rounded tablespoons onto ungreased baking sheets. Bake 9-11 minutes until golden brown.",
+      "imageUrl": "https://images.unsplash.com/photo-1625876981820-be17a6807189?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "title": "Mashed Potatoes",
+      "ingredients": [
+        "2 pounds potatoes, peeled and cubed",
+        "1/2 cup milk",
+        "4 tablespoons butter",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Boil potatoes in salted water until tender, about 15-20 minutes. Drain and return to pot. Mash with butter and gradually add milk until desired consistency. Season with salt and pepper."
+    },
+    {
+      "title": "Chicken Stir Fry",
+      "ingredients": [
+        "1 pound chicken breast, sliced thin",
+        "2 tablespoons oil",
+        "2 cups mixed vegetables (frozen or fresh)",
+        "2 tablespoons soy sauce",
+        "1 tablespoon cornstarch",
+        "1 teaspoon garlic powder",
+        "1 teaspoon ginger powder"
+      ],
+      "instructions": "Heat oil in a large skillet or wok over high heat. Add chicken and cook until no longer pink. Add vegetables and stir-fry for 3-4 minutes. Mix soy sauce, cornstarch, and spices with 2 tablespoons water. Add to pan and stir until sauce thickens."
+    },
+    {
+      "title": "Vegetable Soup",
+      "ingredients": [
+        "4 cups vegetable broth",
+        "1 can diced tomatoes",
+        "1 cup mixed vegetables (carrots, celery, onions)",
+        "1 cup potatoes, diced",
+        "1 can beans, drained",
+        "1 teaspoon dried herbs",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Bring broth to a boil in a large pot. Add all vegetables and herbs. Simmer for 20-25 minutes until vegetables are tender. Season with salt and pepper to taste."
+    },
+    {
+      "title": "Sloppy Joes",
+      "ingredients": [
+        "1 pound ground beef",
+        "1/2 onion, diced",
+        "1/2 cup ketchup",
+        "2 tablespoons brown sugar",
+        "1 tablespoon Worcestershire sauce",
+        "1 teaspoon mustard",
+        "Salt and pepper to taste",
+        "4 hamburger buns"
+      ],
+      "instructions": "Brown ground beef and onion in a skillet. Drain fat. Add ketchup, brown sugar, Worcestershire sauce, mustard, salt, and pepper. Simmer for 10 minutes until thickened. Serve on hamburger buns."
+    },
+    {
+      "title": "Baked Fish",
+      "ingredients": [
+        "4 fish fillets",
+        "2 tablespoons olive oil",
+        "1 lemon, sliced",
+        "2 cloves garlic, minced",
+        "1 teaspoon dried herbs",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Preheat oven to 400°F. Place fish in a baking dish. Drizzle with olive oil and sprinkle with garlic, herbs, salt, and pepper. Top with lemon slices. Bake for 15-20 minutes until fish flakes easily with a fork."
+    },
+    {
+      "title": "Stuffed Bell Peppers",
+      "ingredients": [
+        "4 bell peppers, tops cut off and seeds removed",
+        "1 pound ground beef",
+        "1/2 cup rice, cooked",
+        "1/2 onion, diced",
+        "1 can tomato sauce",
+        "1/2 cup shredded cheese",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Preheat oven to 350°F. Brown ground beef with onion. Mix with rice, half the tomato sauce, and seasonings. Stuff peppers with mixture. Place in baking dish with remaining tomato sauce. Cover and bake 35-40 minutes. Top with cheese and bake 5 more minutes."
+    },
+    {
+      "title": "Chicken Salad",
+      "ingredients": [
+        "2 cups cooked chicken, diced",
+        "1/2 cup mayonnaise",
+        "1 celery stalk, diced",
+        "1/4 cup grapes, halved",
+        "1/4 cup chopped pecans",
+        "1 tablespoon lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Combine all ingredients in a bowl and mix well. Adjust seasoning to taste. Chill for at least 30 minutes before serving. Serve on bread, crackers, or over lettuce."
+    },
+    {
+      "title": "Shepherd's Pie",
+      "ingredients": [
+        "1 pound ground lamb or beef",
+        "1 onion, diced",
+        "2 carrots, diced",
+        "1 cup frozen peas",
+        "2 tablespoons tomato paste",
+        "1 cup beef broth",
+        "4 cups mashed potatoes",
+        "1/2 cup shredded cheese"
+      ],
+      "instructions": "Preheat oven to 400°F. Brown meat with onion and carrots. Add tomato paste, broth, and peas. Simmer until thickened. Transfer to baking dish. Top with mashed potatoes and cheese. Bake 20-25 minutes until golden."
+    },
+    {
+      "title": "Chicken Noodle Casserole",
+      "ingredients": [
+        "8 oz egg noodles, cooked",
+        "2 cups cooked chicken, diced",
+        "1 can cream of mushroom soup",
+        "1/2 cup milk",
+        "1 cup frozen mixed vegetables",
+        "1 cup shredded cheese",
+        "1/2 cup breadcrumbs"
+      ],
+      "instructions": "Preheat oven to 350°F. Mix noodles, chicken, soup, milk, vegetables, and half the cheese. Transfer to greased baking dish. Top with remaining cheese and breadcrumbs. Bake 25-30 minutes until bubbly."
+    },
+    {
+      "title": "Beef and Rice Skillet",
+      "ingredients": [
+        "1 pound ground beef",
+        "1 cup rice",
+        "2 cups beef broth",
+        "1 onion, diced",
+        "1 bell pepper, diced",
+        "1 can diced tomatoes",
+        "1 teaspoon garlic powder",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Brown ground beef in a large skillet. Add onion and bell pepper, cook until softened. Stir in rice, broth, tomatoes, and seasonings. Bring to a boil, then reduce heat and simmer covered for 20 minutes until rice is tender."
+    },
+    {
+      "title": "Tuna Casserole",
+      "ingredients": [
+        "8 oz egg noodles, cooked",
+        "2 cans tuna, drained",
+        "1 can cream of mushroom soup",
+        "1/2 cup milk",
+        "1 cup frozen peas",
+        "1/2 cup shredded cheese",
+        "1/2 cup crushed crackers"
+      ],
+      "instructions": "Preheat oven to 350°F. Mix noodles, tuna, soup, milk, peas, and cheese. Transfer to greased baking dish. Top with crushed crackers. Bake 25-30 minutes until heated through and golden on top."
+    },
+    {
+      "title": "Chicken Teriyaki",
+      "ingredients": [
+        "4 chicken breasts",
+        "1/4 cup soy sauce",
+        "2 tablespoons brown sugar",
+        "2 tablespoons honey",
+        "1 tablespoon rice vinegar",
+        "1 teaspoon garlic powder",
+        "1 teaspoon ginger powder"
+      ],
+      "instructions": "Mix soy sauce, brown sugar, honey, vinegar, and spices for marinade. Marinate chicken for 30 minutes. Grill or pan-fry chicken until cooked through, basting with remaining marinade. Let rest 5 minutes before serving."
+    },
+    {
+      "title": "Beef Chili",
+      "ingredients": [
+        "1 pound ground beef",
+        "1 onion, diced",
+        "2 cans diced tomatoes",
+        "2 cans kidney beans, drained",
+        "2 tablespoons chili powder",
+        "1 teaspoon cumin",
+        "1 teaspoon garlic powder",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Brown ground beef with onion in a large pot. Add tomatoes, beans, and all spices. Bring to a boil, then reduce heat and simmer for 30-45 minutes, stirring occasionally. Adjust seasoning to taste."
+    },
+    {
+      "title": "Chicken Pot Pie",
+      "ingredients": [
+        "2 cups cooked chicken, diced",
+        "1 cup mixed vegetables",
+        "1 can cream of chicken soup",
+        "1/2 cup milk",
+        "1 refrigerated pie crust",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Preheat oven to 425°F. Mix chicken, vegetables, soup, milk, salt, and pepper. Pour into pie dish. Cover with pie crust and seal edges. Cut vents in top. Bake 30-35 minutes until crust is golden brown."
+    },
+    {
+      "title": "Pork Chops",
+      "ingredients": [
+        "4 pork chops",
+        "2 tablespoons olive oil",
+        "1 teaspoon garlic powder",
+        "1 teaspoon paprika",
+        "1/2 teaspoon thyme",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Season pork chops with all spices. Heat oil in a large skillet over medium-high heat. Cook pork chops 4-5 minutes per side until golden brown and internal temperature reaches 145°F. Let rest 3 minutes before serving."
+    },
+    {
+      "title": "Egg Salad",
+      "ingredients": [
+        "6 hard-boiled eggs, chopped",
+        "1/4 cup mayonnaise",
+        "1 teaspoon mustard",
+        "1 celery stalk, diced",
+        "1/4 onion, diced",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Combine all ingredients in a bowl and mix well. Adjust seasoning to taste. Chill for at least 30 minutes before serving. Serve on bread, crackers, or over lettuce."
+    },
+    {
+      "title": "Chicken Quesadillas",
+      "ingredients": [
+        "2 flour tortillas",
+        "1 cup cooked chicken, diced",
+        "1 cup shredded cheese",
+        "1/4 cup bell pepper, diced",
+        "1/4 cup onion, diced",
+        "2 tablespoons oil"
+      ],
+      "instructions": "Mix chicken, cheese, bell pepper, and onion. Place mixture on one tortilla and top with second tortilla. Heat oil in a skillet over medium heat. Cook quesadilla 2-3 minutes per side until golden and cheese is melted. Cut into wedges."
+    },
+    {
+      "title": "Beef Stroganoff",
+      "ingredients": [
+        "1 pound beef strips",
+        "8 oz egg noodles",
+        "1 onion, sliced",
+        "8 oz mushrooms, sliced",
+        "1 can cream of mushroom soup",
+        "1/2 cup sour cream",
+        "2 tablespoons oil"
+      ],
+      "instructions": "Cook noodles according to package directions. Heat oil in a large skillet and brown beef strips. Remove beef and sauté onion and mushrooms. Return beef to pan with soup and simmer 10 minutes. Stir in sour cream and serve over noodles."
+    },
+    {
+      "title": "Chicken Fried Rice",
+      "ingredients": [
+        "2 cups cooked rice, cooled",
+        "2 cups cooked chicken, diced",
+        "2 eggs, beaten",
+        "2 tablespoons oil",
+        "1/2 cup frozen peas and carrots",
+        "2 green onions, chopped",
+        "2 tablespoons soy sauce"
+      ],
+      "instructions": "Heat 1 tablespoon oil in a large skillet. Scramble eggs and remove from pan. Heat remaining oil, add rice, chicken, and vegetables. Stir-fry for 3-4 minutes. Add eggs back to pan with soy sauce. Garnish with green onions."
+    },
+    {
+      "title": "Meatball Subs",
+      "ingredients": [
+        "1 pound ground beef",
+        "1/2 cup breadcrumbs",
+        "1 egg",
+        "1/4 cup onion, diced",
+        "2 cups marinara sauce",
+        "4 sub rolls",
+        "1 cup mozzarella cheese, shredded"
+      ],
+      "instructions": "Mix ground beef, breadcrumbs, egg, and onion. Form into meatballs. Brown in a skillet, then add marinara sauce and simmer 15 minutes. Split sub rolls and fill with meatballs and sauce. Top with cheese and broil until melted."
+    },
+    {
+      "title": "Chicken Caesar Wrap",
+      "ingredients": [
+        "2 large flour tortillas",
+        "2 cups cooked chicken, sliced",
+        "2 cups romaine lettuce, chopped",
+        "1/4 cup caesar dressing",
+        "1/4 cup parmesan cheese, grated",
+        "2 tablespoons croutons, crushed"
+      ],
+      "instructions": "Warm tortillas slightly. Spread caesar dressing on each tortilla. Add lettuce, chicken, parmesan, and croutons. Roll tightly, tucking in sides. Cut in half and serve immediately."
+    },
+    {
+      "title": "Pesto Pasta",
+      "ingredients": [
+        "1 pound pasta",
+        "1/2 cup basil pesto",
+        "1/4 cup pine nuts",
+        "1/4 cup parmesan cheese, grated",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Cook pasta according to package directions. Reserve 1/2 cup pasta water before draining. Toss hot pasta with pesto, adding pasta water as needed for consistency. Drizzle with olive oil and top with pine nuts and parmesan cheese."
+    },
+    {
+      "title": "Chicken and Dumplings",
+      "ingredients": [
+        "4 cups chicken broth",
+        "2 cups cooked chicken, shredded",
+        "1 cup biscuit mix",
+        "1/3 cup milk",
+        "1 cup mixed vegetables",
+        "1/2 teaspoon thyme",
+        "Salt and pepper to taste"
+      ],
+      "instructions": "Bring broth to a boil in a large pot. Add chicken, vegetables, and thyme. Mix biscuit mix with milk to form dough. Drop spoonfuls of dough into simmering broth. Cover and cook 15 minutes without lifting lid. Season with salt and pepper."
+    }
+  ]
+}

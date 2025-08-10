@@ -1,0 +1,13 @@
+/build
+local.properties
+google-services.json
+.idea/
+*.iml
+fruits-360/
+fruits-360.zip
+mobilenet_v2_1.0_224*
+*.pb
+*.pbtxt
+*.ckpt*
+*.tgz
+*.logcat

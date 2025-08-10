@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="@dimen/padding_24"
+    android:background="@drawable/background_app">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="@dimen/text_size_25"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/margin_bottom_12" />
+
+        <!-- Category -->
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/category_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_18"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/space_admin"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/margin_bottom_16"/>
+
+        <!-- Ingredients -->
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/ingredients_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_18"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/three_dots_admin"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/margin_bottom_8" />
+
+        <!-- Essential Ingredients Title  -->
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/essential_ingredients_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_18"/>
+
+        <!-- Essential Ingredients Content  -->
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textEssentialIngredientsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dot_admin"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/margin_bottom_8" />
+
+        <!-- Instructions -->
+        <com.google.android.material.textview.MaterialTextView
+            android:text="@string/instructions_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_18"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/textInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dots_admin"
+            android:textColor="@color/black"
+            android:layout_marginBottom="@dimen/margin_bottom_8" />
+
+        <!-- image -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageViewPreview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_200"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_image"
+            android:layout_marginBottom="@dimen/margin_bottom_24"/>
+
+        <!-- button Approve -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonApprove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/approve"
+            android:backgroundTint="@color/green_700"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="@dimen/margin_bottom_12"/>
+
+        <!-- button Reject -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonReject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reject"
+            android:backgroundTint="@color/red_600"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>
