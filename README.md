@@ -29,9 +29,9 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 ## 🧠 Highlights & Mechanics
 
 - **Matching pipeline**:
-  1) Firestore full match →  
-  2) Firestore with up to 3 missing ingredients →  
-  3) Spoonacular (full or up to 3 missing) →  
+  1) Firestore full match 
+  2) Firestore with up to 3 missing ingredients 
+  3) Spoonacular (full or up to 3 missing) 
   4) “No matching recipes” screen
 - **Serializable-based navigation** for opening recipe details (with safe null handling)
 - **User flows/screens**:
