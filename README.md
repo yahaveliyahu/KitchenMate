@@ -1,6 +1,5 @@
 # 🍳 KitchenMate
-KitchenMate is a smart Android app for adapting recipes based on the user's available ingredients.
-The app allows for intelligent search, scanning, saving, and management of recipes, while integrating external sources and advanced recognition capabilities.
+KitchenMate is a smart Android app for customizing recipes based on the user's available ingredients. The app enables smart search, scanning, saving, and management of recipes backed by Firebase, while integrating external sources and ML-based ingredient recognition.
 
 ---
 
