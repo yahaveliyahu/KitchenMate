@@ -8,14 +8,15 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 - Ingredient matching against your pantry items
 - Recipe Management - User-generated recipes + admin approval workflow (pending → recipes)
 - GET integration with Spoonacular to enrich results / fallback when Firestore has no good match
-- On-device ML model: recognize fruits & vegetables from the camera
-- Barcode scanner for fast item entry (ZXing)
-- OCR + PDF/TXT import to capture recipes without typing
+- 🖼️ On-device ML model: recognize fruits & vegetables from the camera
+- 📷 Barcode scanner for fast item entry (ZXing)
+- 📄 OCR + PDF/TXT import to capture recipes without typing
 - Personal favorites (❤️)recipes tracking
 - Images stored in Firebase Storage
 - Android (Kotlin), Firebase (Auth/Firestore/Storage), Retrofit/OkHttp, Glide
-- Viewing history – Displays the latest recipes the user has opened and saving time stamp
+- Viewing history – Displays the latest recipes the user has opened + sort by timestamp
 - Finding recipes by searching for the recipe name
+- Visual ingredient highlighting: Green = user has it, Red = missing
 
   ---
 
