@@ -20,9 +20,29 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 
   ---
 
-## 🎮 Watch the App in Action
+## Watch the App in Action
 
 ▶️ **Demo video:** [Click here to watch the video](https://streamable.com/493zsk)
+
+---
+
+## 🧠 Highlights & Mechanics
+
+- **Matching pipeline**:
+  1) Firestore full match →  
+  2) Firestore with up to 3 missing ingredients →  
+  3) Spoonacular (full or up to 3 missing) →  
+  4) “No matching recipes” screen
+- **Serializable-based navigation** for opening recipe details (with safe null handling)
+- **User flows/screens**:
+  - Enter ingredients (manual / barcode / gallery / camera)
+  - Matched recipes
+  - All recipes (unfiltered)
+  - Favorites, Recents
+  - Add recipe (manual / OCR) → Pending → Admin approval
+  - Recipe details with colored ingredients and image
+- **Admin-only flow** for moderating user-submitted recipes
+- **Robust text styling** via `TextStylingUtils` (coloring known ingredients only)
 
 ---
 
