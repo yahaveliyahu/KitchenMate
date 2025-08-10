@@ -5,6 +5,7 @@ The app allows for intelligent search, scanning, saving, and management of recip
 ---
 
 ## ✨ Main Features
+
 - Ingredient matching against your pantry items
 - Recipe Management - User-generated recipes + admin approval workflow (pending → recipes)
 - GET integration with Spoonacular to enrich results / fallback when Firestore has no good match
