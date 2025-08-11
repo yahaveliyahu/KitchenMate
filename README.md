@@ -105,19 +105,16 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 ├── settings.gradle.kts
 └── gradle.properties
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
-**Login**
+| Login | Home | Match Results |
+|---|---|---|
+| <img src="screenshots/login.jpg" width="260" alt="Login"> | <img src="screenshots/home.jpg" width="260" alt="Home"> | <img src="screenshots/match.jpg" width="260" alt="Match"> |
 
-![Login Screen](login.jpg)
+| recipe | Home | Match Results |
+|---|---|---|
+| <img src="screenshots/login.jpg" width="260" alt="Login"> | <img src="screenshots/home.jpg" width="260" alt="Home"> | <img src="screenshots/match.jpg" width="260" alt="Match"> |
 
-**Home**
-
-![Home Screen](home.jpg)
-
-**Match Results**
-
-![Match Screen](match.jpg)
 
 **Recipe**
 
