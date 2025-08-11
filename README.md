@@ -52,7 +52,7 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 - **Database**: Firebase Firestore
 - **Image storage**: Firebase Storage
 - **External APIs**: Spoonacular
-- **Machine Learning**: MobileNet v2 + TensorFlow Lite
+- **Machine Learning**: Model + TensorFlow Lite
 - **OCR**: ML Kit / Tesseract OCR
 - **UI**: Android XML Layouts, Glide for loading images
 - **Utils:** Coroutines, Serializable models
