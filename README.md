@@ -109,12 +109,25 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 
 **Login**
 
+![Login Screen](screenshots/login.jpg)
+
 **Home**
+
+![Home Screen](screenshots/home.jpg)
 
 **Match Results**
 
-**Recipe Details**
+![Match Screen](screenshots/match.jpg)
+
+**Recipe**
+
+![Recipe Screen](screenshots/recipes.jpg)
 
 **Favorites**
 
+![Favorite Screen](screenshots/favorite.jpg)
+
 **Recents**
+
+![Recent Screen](screenshots/recent.jpg)
+
