@@ -22,7 +22,7 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 
 ## Watch the App in Action
 
-▶️ **Demo video:** [Click here to watch the video](https://streamable.com/493zsk)
+▶️ **Demo video:** [Click here to watch the video](https://img.youtube.com/vi/o6P7jhMq784/0.jpg)](https://youtu.be/o6P7jhMq784)
 
 ---
 
