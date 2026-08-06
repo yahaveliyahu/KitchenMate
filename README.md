@@ -61,6 +61,7 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 
 ## 📂 Project Structure
 
+```
   app/
 ├── src/
 │ └── main/
@@ -104,6 +105,7 @@ KitchenMate is a smart Android app for customizing recipes based on the user's a
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── gradle.properties
+```
 
 ## 📸 Screenshots
 
